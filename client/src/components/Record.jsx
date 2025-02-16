@@ -27,7 +27,7 @@ export default function Record() {
       const record = await response.json();
       if (!record) {
         console.warn(`Record with id ${id} not found`);
-        navigate("/");
+        navigate("/porfolio");
         return;
       }
       setForm(record);
@@ -95,7 +95,7 @@ useEffect(() => {
       const record = await response.json();
       if (!record) {
         console.warn(`Record with id ${id} not found`);
-        navigate("/");
+        navigate("/porfolio");
         return;
       }
       setForm(record);
@@ -126,7 +126,7 @@ async function onSubmit(e) {
       console.error('A problem occurred with your fetch operation: ', error);
     } finally {
       setForm({ name: "", position: "", level: "" });
-      navigate("/");
+      navigate("/porfolio");
     }
   }
 

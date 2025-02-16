@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://iarikaja.github.io/portfolio",
+  "homepage": "https://iarikaja.github.io/porfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
