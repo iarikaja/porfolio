@@ -10,7 +10,6 @@ const client = new MongoClient(uri, {
     deprecationErrors: true,
   },
   ssl:false,
-  directConnection:true,
   useUnifiedTopology: true,
 });
 
